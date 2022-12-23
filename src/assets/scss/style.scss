@@ -1,0 +1,63 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+[dir] .btn-primary {
+    // border-color: #007078 !important;
+    // background-color: #007078 !important;
+}
+
+[dir] .btn-primary:focus, [dir] .btn-primary:active, [dir] .btn-primary.active {
+    // background-color: #007078 !important;
+}
+
+[dir=ltr] .vertical-layout .main-menu .navigation a.active {
+	// background: linear-gradient(118deg, #007078, #007078);
+
+}
+[dir] .vertical-layout .main-menu .navigation a.active {
+    // box-shadow: 0 0 10px 1px #007078;
+    border-radius: 4px;
+}
+html[dir] .content.app-content {
+    // padding: calc(1rem + 4rem + 1.3rem) 0.5rem 0;
+}
+
+// .auth-wrapper.auth-basic{
+// 	background-color: #00707880;
+// }
+
+html[dir] .content.app-content {
+    padding: calc(1rem + 4.45rem + 0.4rem) 2rem 0;
+}
+[dir] .card {
+    margin-bottom: 0.9rem;
+}
+
+.react-dataTable .rdt_TableBody .rdt_TableRow {
+    color: #49455a;
+}
+
+[dir] .header-navbar.floating-nav {
+    margin: 0.5rem auto 1rem;
+}
+.fw-bold {
+    font-weight: 600 !important;
+}
+
+.react-dataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell {
+    height: 38px;
+}
+
+[dir] .my-2 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
