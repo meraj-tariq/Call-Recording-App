@@ -32,6 +32,7 @@ const DashboardApp = lazy(() => import('../../views/Dashboard/'))
 const UserListApp = lazy(() => import('../../views/Dashboard/userList'))
 const ActivityApp = lazy(() => import('../../views/ActivityLogs/'))
 const AddRecordApp = lazy(() => import('../../views/AddRecords/'))
+const ARCBILLINGAPP = lazy(() => import('../../views/AcrBilling/'))
 
 // ** Merge Routes
 const Routes = [
@@ -59,6 +60,10 @@ const Routes = [
   {
     path: '/addRecord',
     element: <AddRecordApp /> // activitylogs
+  },
+  {
+    path: '/acrBilling',
+    element: <ARCBILLINGAPP /> // activitylogs
   },
   {
     path: '/login',

@@ -46,12 +46,14 @@ export const AuthUserSlice = createSlice({
         handleLogout: state => {
             state.userData = null
             localStorage.removeItem('userData')
+            state.message = ""
         }
     },
 
     extraReducers: {
         [LOGIN.pending]: (state) => {
             state.isProcess = true
+            state.message = ""
         },
         [LOGIN.fulfilled]: (state, { payload }) => {
             if (payload?.status) {

@@ -1,4 +1,4 @@
-import { Mail, Home, Activity, User, UserPlus, Speaker } from 'react-feather'
+import { Mail, Home, Activity, User, UserPlus, Speaker, CreditCard } from 'react-feather'
 
 export default [
     {
@@ -24,6 +24,12 @@ export default [
         title: 'Activity Logs',
         icon: <Activity size={20} />,
         navLink: '/activitylogs'
+    },
+    {
+        id: 'ArcBilling',
+        title: 'ACR Billing',
+        icon: <CreditCard size={20} />,
+        navLink: '/acrBilling'
     },
     {
         id: 'AddRecord',
